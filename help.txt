@@ -1,0 +1,8 @@
+cat:              Show file's content
+cd <folder_name>: Change directory to a new folder
+fsstat:           Show information of folder system
+help:             Show list of command
+ls:               List out all files in current directory
+pwd:              Get current directory
+tree:             Show folder tree from the current directory
+xxd:              Print out hexdump of a file
