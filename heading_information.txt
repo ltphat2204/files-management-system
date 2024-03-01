@@ -1,8 +1,10 @@
-Project 1 - Files management system
+Project 1 - Window files management system
 
-This project was made by:
-1. 22127000 - Tên gì gì đó
-2. 22127000 - Tên gì gì đó
-3. 22127000 - Tên gì gì đó
-4. 22127000 - Tên gì gì đó
-5. 22127000 - Tên gì gì đó
+1. 22127177 - Mai Trần Nguyễn Khang
+2. 22127274 - Phan Nguyễn Tuấn Minh
+3. 22127323 - Lê Tấn Phát
+4. 20127101 - Bùi Ngọc Mỹ An
+5. 20127576 - Nguyễn Trúc Nguyên
+
+Giáo viên hướng dẫn: 
+Lê Viết Long

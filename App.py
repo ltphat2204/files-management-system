@@ -11,7 +11,7 @@ class App():
         self.app.resizable(width=False, height=False)
 
     def _showHeading(self, frame):
-        info_text = tk.Text(frame, wrap=tk.WORD, height=9)
+        info_text = tk.Text(frame, wrap=tk.WORD, height=12)
         info_text.pack(side="top", fill="x")
 
         with open("heading_information.txt", "r", encoding="utf-8") as file:
@@ -52,6 +52,11 @@ class App():
 
                 def execute_command(event=None):
                     command = input_entry.get().strip()
+                    print(command)
+                    if command == 'clear':
+                        output_text.delete('1.0', tk.END)
+                        input_entry.delete(0, tk.END)
+                        return
                     if command:
                         output_text.insert(tk.END, f"\n{shell.prompt}{command}\n")
                         if command.strip() == "help":
